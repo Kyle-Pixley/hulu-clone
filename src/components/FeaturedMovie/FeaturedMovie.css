@@ -1,0 +1,25 @@
+#featured-movie-component {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#featured-movie-text {
+    width: 40%;
+    height: 100%;
+    background-color: #733c02;
+}
+#featured-movie-photo-frame {
+    width: 60%;
+    height: 100%;
+}
+#featured-movie-photo {
+    background-size: cover;
+    background-image: url(../../assets/brave-chinchilla.png);
+    width: 100%;
+    height: 100%;
+}
+#fade-overlay {
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(90deg,rgba(115, 60, 2, 1) 0%, rgba(115, 60, 2, 0) 100%);
+}

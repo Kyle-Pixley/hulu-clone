@@ -1,0 +1,24 @@
+#nav-component {
+    position: absolute;
+    background: linear-gradient(0deg,rgba(138, 135, 135, 0) 30%, rgba(41, 41, 41, .93) 80%);
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    font-size: calc(12px + 1vw);
+}
+#logo {
+    margin-left: 1vw;
+}
+#nav-buttons-parent {
+    display: flex;
+    justify-content: space-around;
+    width: 16vw;
+}
+.nav-buttons {
+    cursor: pointer;
+}
+#account-button {
+    margin-right: 1vw;
+}

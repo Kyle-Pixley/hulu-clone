@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
-import FeaturedMovie from '../FeaturedMovie/FeaturedMovie'
+import FeaturedMovie from '../FeaturedMovie/FeaturedMovie';
 import './UpperPage.css'; 
 
 function UpperPage() {
@@ -11,6 +11,7 @@ function UpperPage() {
     <div>
         <Nav />
         <FeaturedMovie />
+
     </div>
   )
 }
